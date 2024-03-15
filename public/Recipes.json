@@ -1,0 +1,87 @@
+[
+    {
+      "image": "image_url_here",
+      "id": "1",
+      "name": "Garlic Shrimp Stir-Fry",
+      "description": "Quick and flavorful shrimp dish with garlic and herbs.",
+      "ingredients": [
+        "500 g shrimp, peeled and deveined",
+        "4 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1/4 cup chopped parsley"
+      ],
+      "preparing_time": "20 min",
+      "calories": "200 calories"
+    },
+    {
+      "image": "image_url_here",
+      "id": "2",
+      "name": "Margherita Pizza",
+      "description": "Simple and delicious pizza topped with tomato, mozzarella, and basil.",
+      "ingredients": [
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "200 g fresh mozzarella, sliced",
+        "Handful of fresh basil leaves"
+      ],
+      "preparing_time": "15 min",
+      "calories": "300 calories"
+    },
+    {
+      "image": "image_url_here",
+      "id": "3",
+      "name": "Garlic Mushroom Risotto",
+      "description": "Rich and comforting risotto infused with garlic and mushrooms.",
+      "ingredients": [
+        "1 cup Arborio rice",
+        "4 cups vegetable broth",
+        "2 tbsp butter",
+        "200 g mushrooms, sliced"
+      ],
+      "preparing_time": "40 min",
+      "calories": "350 calories"
+    },
+    {
+      "image": "image_url_here",
+      "id": "4",
+      "name": "Spicy Thai Basil Beef",
+      "description": "Fiery and aromatic Thai-style beef stir-fry with basil and chili.",
+      "ingredients": [
+        "500 g beef, thinly sliced",
+        "3 tbsp soy sauce",
+        "2 tbsp fish sauce",
+        "2 tbsp oyster sauce"
+      ],
+      "preparing_time": "30 min",
+      "calories": "400 calories"
+    },
+    {
+      "image": "image_url_here",
+      "id": "5",
+      "name": "Quinoa Black Bean Salad",
+      "description": "Nutritious and satisfying salad with quinoa, black beans, and veggies.",
+      "ingredients": [
+        "1 cup quinoa, cooked",
+        "1 can black beans, drained and rinsed",
+        "1 red bell pepper, diced",
+        "1/2 cup corn kernels"
+      ],
+      "preparing_time": "25 min",
+      "calories": "280 calories"
+    },
+    {
+      "image": "image_url_here",
+      "id": "6",
+      "name": "Lemon Garlic Roast Chicken",
+      "description": "Juicy and flavorful roast chicken infused with lemon and garlic.",
+      "ingredients": [
+        "1 whole chicken (about 2 kg)",
+        "4 cloves garlic, minced",
+        "2 lemons, juiced and zest",
+        "2 tbsp olive oil"
+      ],
+      "preparing_time": "1 hour 30 min",
+      "calories": "450 calories"
+    }
+  ]
+  
