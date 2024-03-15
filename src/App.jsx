@@ -14,6 +14,14 @@ function App() {
       .then(res => res.json())
       .then(data => setRecipe(data))
      },[])
+
+
+   let [adding,setAdding]  = useState([])
+   let hendleWantToCook = (add) => {
+       let addingAll = [...adding,add]
+       setAdding(addingAll)
+   }
+
   return (
     <div className="w-[97%] md:w-[85%] mx-auto">
       <Navbar></Navbar>
@@ -25,10 +33,11 @@ function App() {
           recipe.map((recipe,index) => <RecipesCard 
           key={index}
           recipe={recipe}
+          hendleWantToCook ={hendleWantToCook}
           ></RecipesCard>)
         }
         </div>
-         <AddCard></AddCard>
+         <AddCard adding={adding}></AddCard>
       </div>
     </div>
   )

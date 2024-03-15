@@ -2,8 +2,7 @@ import PropTypes from 'prop-types';
 import { FaRegClock } from "react-icons/fa";
 import { SlFire } from "react-icons/sl";
 
-
-const RecipesCard = ({recipe}) => {
+const RecipesCard = ({recipe,hendleWantToCook}) => {
      let {image,name,description,ingredients,preparing_time,calories} = recipe
     return (
             <div className="">
@@ -30,7 +29,7 @@ const RecipesCard = ({recipe}) => {
            </div>
 
            <div className="card-actions">
-             <button className="btn btn-primary">Want to Cook</button>
+             <button onClick={()=>hendleWantToCook(recipe)} className="btn btn-primary">Want to Cook</button>
            </div>
          </div>
        </div>
@@ -39,7 +38,8 @@ const RecipesCard = ({recipe}) => {
 };
 
 RecipesCard.propTypes ={
-    recipe:PropTypes.object.isRequired
+    recipe:PropTypes.object.isRequired,
+    hendleWantToCook : PropTypes.func.isRequired
 }
 
 export default RecipesCard;
