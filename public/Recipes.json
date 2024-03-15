@@ -1,87 +1,89 @@
 [
     {
-      "image": "image_url_here",
+      "image": "https://i.ibb.co/LtCykfT/pexels-engin-akyurt-1487511.jpg",
       "id": "1",
-      "name": "Garlic Shrimp Stir-Fry",
-      "description": "Quick and flavorful shrimp dish with garlic and herbs.",
+      "name": "Tomato Pasta",
+      "description": "Classic pasta dish with tomato sauce and basil.",
       "ingredients": [
-        "500 g shrimp, peeled and deveined",
-        "4 cloves garlic, minced",
-        "2 tbsp olive oil",
-        "1/4 cup chopped parsley"
+        "300 g pasta",
+        "1/2 cup tomato sauce",
+        "2 tbsp olive oil"
       ],
       "preparing_time": "20 min",
-      "calories": "200 calories"
-    },
-    {
-      "image": "image_url_here",
-      "id": "2",
-      "name": "Margherita Pizza",
-      "description": "Simple and delicious pizza topped with tomato, mozzarella, and basil.",
-      "ingredients": [
-        "1 pizza dough",
-        "1/2 cup tomato sauce",
-        "200 g fresh mozzarella, sliced",
-        "Handful of fresh basil leaves"
-      ],
-      "preparing_time": "15 min",
       "calories": "300 calories"
     },
     {
-      "image": "image_url_here",
-      "id": "3",
-      "name": "Garlic Mushroom Risotto",
-      "description": "Rich and comforting risotto infused with garlic and mushrooms.",
+      "image": "https://i.ibb.co/hRvzswm/pexels-narda-yescas-1566837.jpg",
+      "id": "2",
+      "name": "Pepperoni Pizza",
+      "description": "Traditional pizza topped with cheese and pepperoni.",
       "ingredients": [
-        "1 cup Arborio rice",
-        "4 cups vegetable broth",
-        "2 tbsp butter",
-        "200 g mushrooms, sliced"
+        "1 pizza dough",
+        "1/2 cup tomato sauce",
+        "200 g mozzarella cheese, shredded",
+        "100 g pepperoni slices"
       ],
-      "preparing_time": "40 min",
+      "preparing_time": "25 min",
       "calories": "350 calories"
     },
     {
-      "image": "image_url_here",
-      "id": "4",
-      "name": "Spicy Thai Basil Beef",
-      "description": "Fiery and aromatic Thai-style beef stir-fry with basil and chili.",
+      "image": "https://i.ibb.co/Pj3V3WH/pexels-jonathan-borba-2983101.jpg",
+      "id": "3",
+      "name": "Chicken Burger",
+      "description": "Juicy chicken burger with lettuce and mayo.",
       "ingredients": [
-        "500 g beef, thinly sliced",
-        "3 tbsp soy sauce",
-        "2 tbsp fish sauce",
-        "2 tbsp oyster sauce"
+        "2 chicken patties",
+        "2 burger buns",
+        "Lettuce leaves",
+        "Mayonnaise",
+        "Sliced tomatoes"
       ],
       "preparing_time": "30 min",
       "calories": "400 calories"
     },
     {
-      "image": "image_url_here",
-      "id": "5",
-      "name": "Quinoa Black Bean Salad",
-      "description": "Nutritious and satisfying salad with quinoa, black beans, and veggies.",
+      "image": "https://i.ibb.co/YprWQnD/pexels-valeria-boltneva-1639557.jpg",
+      "id": "4",
+      "name": "Beef Burger",
+      "description": "Succulent beef burger with cheese and pickles.",
       "ingredients": [
-        "1 cup quinoa, cooked",
-        "1 can black beans, drained and rinsed",
-        "1 red bell pepper, diced",
-        "1/2 cup corn kernels"
+        "2 beef patties",
+        "2 burger buns",
+        "2 slices of cheese",
+        "Pickles",
+        "Sliced onions"
       ],
-      "preparing_time": "25 min",
-      "calories": "280 calories"
+      "preparing_time": "35 min",
+      "calories": "450 calories"
     },
     {
-      "image": "image_url_here",
-      "id": "6",
-      "name": "Lemon Garlic Roast Chicken",
-      "description": "Juicy and flavorful roast chicken infused with lemon and garlic.",
+      "image": "https://i.ibb.co/sgB1rsd/pexels-shameel-mukkath-14731729.jpg",
+      "id": "5",
+      "name": "Chicken Biryani",
+      "description": "Flavorful rice dish with tender chicken and aromatic spices.",
       "ingredients": [
-        "1 whole chicken (about 2 kg)",
-        "4 cloves garlic, minced",
-        "2 lemons, juiced and zest",
-        "2 tbsp olive oil"
+        "500 g basmati rice",
+        "500 g chicken, cubed",
+        "2 onions, sliced",
+        "Handful of cilantro and mint leaves",
+        "1/4 cup yogurt"
       ],
-      "preparing_time": "1 hour 30 min",
-      "calories": "450 calories"
+      "preparing_time": "60 min",
+      "calories": "500 calories"
+    },
+    {
+      "image": "https://i.ibb.co/fN4HtNJ/closeup-shot-pasta-with-vegetables-ingredients-white-table.jpg",
+      "id": "6",
+      "name": "Veg Chowmein",
+      "description": "Stir-fried noodles with assorted vegetables.",
+      "ingredients": [
+        "300 g noodles",
+        "Assorted vegetables (e.g., bell peppers, carrots, cabbage)",
+        "2 tbsp soy sauce",
+        "1 tbsp vegetable oil"
+      ],
+      "preparing_time": "30 min",
+      "calories": "350 calories"
     }
   ]
   
