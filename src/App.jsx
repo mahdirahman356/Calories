@@ -6,6 +6,9 @@ import Navbar from './Header/Navbar'
 import AddCard from './Recipes/AddCard'
 import RecipesCard from './Recipes/RecipesCard'
 import RecipesTitle from './Recipes/RecipesTitle'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
      let [recipe,setRecipe] = useState([])
@@ -25,7 +28,7 @@ function App() {
         setAdding(addingAll)
        }
        else{
-        alert ('alredy Executed')
+         toast("Already Exist");
        }
        
    }
@@ -44,6 +47,7 @@ function App() {
           hendleWantToCook ={hendleWantToCook}
           ></RecipesCard>)
         }
+        <ToastContainer></ToastContainer>
         </div>
          <AddCard adding={adding}></AddCard>
       </div>

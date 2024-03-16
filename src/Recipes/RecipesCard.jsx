@@ -39,7 +39,7 @@ const RecipesCard = ({recipe,hendleWantToCook}) => {
 
 RecipesCard.propTypes ={
     recipe:PropTypes.object.isRequired,
-    hendleWantToCook : PropTypes.func.isRequired
+    hendleWantToCook : PropTypes.func.isRequired,
 }
 
 export default RecipesCard;
