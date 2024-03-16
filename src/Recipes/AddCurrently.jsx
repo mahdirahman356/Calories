@@ -2,7 +2,6 @@
 import PropTypes from 'prop-types'; 
 
 const AddCurrently = ({preparing}) => {
-    console.log(preparing)
     return (
         <div> 
 

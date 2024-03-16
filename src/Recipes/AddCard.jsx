@@ -1,13 +1,17 @@
 import PropTypes from 'prop-types'; 
 import AddCurrently from './AddCurrently';
-import { useState } from 'react';
-const AddCard = ({adding}) => {
+// import { useState } from 'react';
+const AddCard = ({adding,hendlePreparing,preparing}) => {
 
-  let [preparing,setPreparing] = useState([])
-  let hendlePreparing = (pre) => {
-    let AllPreparing = [...preparing,pre]
-    setPreparing(AllPreparing)
-}
+  // let [preparing,setPreparing] = useState([])
+
+  // let hendlePreparing = (pre) => {
+  //   let AllPreparing = [...preparing,pre]
+  //   setPreparing(AllPreparing)
+  //   let removeAddCard = remove.filter(p => p.id !== pre.id)
+  //   setRemove(removeAddCard)
+  // }
+
     return (
         <div className="md:w-[40%] border-[1px] border-[#28282833] rounded-xl">
             <h2 className="text-2xl font-bold text-center my-5 border-b-[1px] border-[#2828281A] pb-4 w-[80%] mx-auto">Want to cook: {adding.length}</h2>
@@ -26,7 +30,7 @@ const AddCard = ({adding}) => {
               <td>{add.name}</td>
               <td>{add.preparing_time}</td>
               <td>{add.calories}</td>
-              <td><button onClick={()=>hendlePreparing(add,add.id)} className="btn border-none bg-[#0BE58A] rounded-[30px]">Preparing</button></td>
+              <td><button onClick={()=>hendlePreparing(add)} className=" btn border-none bg-[#0BE58A] rounded-[30px]">Preparing</button></td>
             </tr>
           )}
           </table>  
@@ -37,6 +41,8 @@ const AddCard = ({adding}) => {
 };
 
  AddCard.propTypes={
-    adding: PropTypes.array.isRequired
+    adding: PropTypes.array.isRequired,
+    hendlePreparing : PropTypes.func.isRequired,
+    preparing : PropTypes.func.isRequired
  }
 export default AddCard;

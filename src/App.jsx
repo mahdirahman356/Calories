@@ -18,10 +18,8 @@ function App() {
       .then(data => setRecipe(data))
      },[])
 
-
    let [adding,setAdding]  = useState([])
    let hendleWantToCook = (add,id) => {
-       
        let isExecute = adding.find(adding => adding.id === id)
        if(!isExecute){
         let addingAll = [...adding,add]
@@ -32,6 +30,15 @@ function App() {
        }
        
    }
+
+   let [preparing,setPreparing] = useState([])
+
+     let hendlePreparing = (pre) => {
+      let removeAddCard = adding.filter(p => p.id !== pre.id)
+       setAdding(removeAddCard)
+       let AllPreparing = [...preparing,pre]
+       setPreparing(AllPreparing)
+     }
 
   return (
     <div className="w-[97%] md:w-[85%] mx-auto">
@@ -49,7 +56,7 @@ function App() {
         }
         <ToastContainer></ToastContainer>
         </div>
-         <AddCard adding={adding}></AddCard>
+         <AddCard adding={adding} preparing={preparing} hendlePreparing={hendlePreparing}></AddCard>
       </div>
     </div>
   )
