@@ -33,7 +33,16 @@ function App() {
 
    let [preparing,setPreparing] = useState([])
 
-     let hendlePreparing = (pre) => {
+   let [totalTime,SetTotalTime] = useState(0)
+   let [totalCalories,setTotalCalories] = useState(0)
+
+     let hendlePreparing = (pre,timeCoint,caloriesCount) => {
+      totalTime = totalTime + timeCoint
+      SetTotalTime(totalTime)
+
+      totalCalories = totalCalories + caloriesCount
+      setTotalCalories(totalCalories)
+
       let removeAddCard = adding.filter(p => p.id !== pre.id)
        setAdding(removeAddCard)
        let AllPreparing = [...preparing,pre]
@@ -50,13 +59,13 @@ function App() {
         {
           recipe.map((recipe,index) => <RecipesCard 
           key={index}
-          recipe={recipe}
+          recipe={recipe}z
           hendleWantToCook ={hendleWantToCook}
           ></RecipesCard>)
         }
         <ToastContainer></ToastContainer>
         </div>
-         <AddCard adding={adding} preparing={preparing} hendlePreparing={hendlePreparing}></AddCard>
+         <AddCard adding={adding} preparing={preparing} hendlePreparing={hendlePreparing} totalTime={totalTime} totalCalories={totalCalories}></AddCard>
       </div>
     </div>
   )

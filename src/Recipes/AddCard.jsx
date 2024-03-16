@@ -1,16 +1,6 @@
 import PropTypes from 'prop-types'; 
 import AddCurrently from './AddCurrently';
-// import { useState } from 'react';
-const AddCard = ({adding,hendlePreparing,preparing}) => {
-
-  // let [preparing,setPreparing] = useState([])
-
-  // let hendlePreparing = (pre) => {
-  //   let AllPreparing = [...preparing,pre]
-  //   setPreparing(AllPreparing)
-  //   let removeAddCard = remove.filter(p => p.id !== pre.id)
-  //   setRemove(removeAddCard)
-  // }
+const AddCard = ({adding,hendlePreparing,preparing,totalTime,totalCalories}) => {
 
     return (
         <div className="md:w-[40%] border-[1px] border-[#28282833] rounded-xl">
@@ -28,13 +18,13 @@ const AddCard = ({adding,hendlePreparing,preparing}) => {
               <tr key={index} className="bg-[#28282808] text-center"> 
              <td className="w-5"><div className="px-3">{index + 1}</div></td>
               <td>{add.name}</td>
-              <td>{add.preparing_time}</td>
-              <td>{add.calories}</td>
-              <td><button onClick={()=>hendlePreparing(add)} className=" btn border-none bg-[#0BE58A] rounded-[30px]">Preparing</button></td>
+              <td>{add.preparing_time} min</td>
+              <td>{add.calories} calories</td>
+              <td><button onClick={()=>hendlePreparing(add,add.preparing_time,add.calories)} className=" btn border-none bg-[#0BE58A] rounded-[30px]">Preparing</button></td>
             </tr>
           )}
           </table>  
-          <AddCurrently preparing ={preparing}></AddCurrently>
+          <AddCurrently preparing ={preparing} totalTime={totalTime} totalCalories={totalCalories}></AddCurrently>
            
         </div>
     );
@@ -43,6 +33,8 @@ const AddCard = ({adding,hendlePreparing,preparing}) => {
  AddCard.propTypes={
     adding: PropTypes.array.isRequired,
     hendlePreparing : PropTypes.func.isRequired,
-    preparing : PropTypes.func.isRequired
+    preparing : PropTypes.func.isRequired,
+    totalTime : PropTypes.number.isRequired,
+    totalCalories:PropTypes.number.isRequired
  }
 export default AddCard;

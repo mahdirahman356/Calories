@@ -10,8 +10,8 @@
       "Handful of fresh basil leaves",
       "2 tbsp olive oil"
     ],
-    "preparing_time": "20 min",
-    "calories": "300 calories"
+    "preparing_time": 20,
+    "calories": 300
   },
   {
     "image": "https://i.ibb.co/hRvzswm/pexels-narda-yescas-1566837.jpg",
@@ -24,8 +24,8 @@
       "200 g mozzarella cheese, shredded",
       "100 g pepperoni slices"
     ],
-    "preparing_time": "25 min",
-    "calories": "350 calories"
+    "preparing_time": 25,
+    "calories": 350
   },
   {
     "image": "https://i.ibb.co/Pj3V3WH/pexels-jonathan-borba-2983101.jpg",
@@ -38,8 +38,8 @@
       "Lettuce leaves",
       "Mayonnaise"
     ],
-    "preparing_time": "30 min",
-    "calories": "400 calories"
+    "preparing_time": 30,
+    "calories": 400
   },
   {
     "image": "https://i.ibb.co/YprWQnD/pexels-valeria-boltneva-1639557.jpg",
@@ -52,8 +52,8 @@
       "2 slices of cheese",
       "Pickles"
     ],
-    "preparing_time": "35 min",
-    "calories": "450 calories"
+    "preparing_time": 35,
+    "calories": 450
   },
   {
     "image": "https://i.ibb.co/sgB1rsd/pexels-shameel-mukkath-14731729.jpg",
@@ -66,8 +66,8 @@
       "2 onions, sliced",
       "Handful of cilantro and mint leaves"
     ],
-    "preparing_time": "60 min",
-    "calories": "500 calories"
+    "preparing_time": 60,
+    "calories": 500
   },
   {
     "image": "https://i.ibb.co/fN4HtNJ/closeup-shot-pasta-with-vegetables-ingredients-white-table.jpg",
@@ -80,7 +80,7 @@
       "2 tbsp soy sauce",
       "1 tbsp vegetable oil"
     ],
-    "preparing_time": "30 min",
-    "calories": "350 calories"
+    "preparing_time": 30,
+    "calories": 350
   }
 ]

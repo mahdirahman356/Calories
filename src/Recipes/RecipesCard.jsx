@@ -24,8 +24,8 @@ const RecipesCard = ({recipe,hendleWantToCook}) => {
           </div>
 
            <div className="flex justify-between py-4 text-[#282828CC]">
-            <p className="flex items-center gap-1"><FaRegClock /> {preparing_time}</p>
-            <p className="flex items-center gap-1"><SlFire />{calories}</p>
+            <p className="flex items-center gap-1"><FaRegClock /> {preparing_time} min</p>
+            <p className="flex items-center gap-1"><SlFire />{calories} calories</p>
            </div>
 
            <div className="card-actions">
