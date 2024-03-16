@@ -23,10 +23,9 @@ const AddCard = ({adding,hendlePreparing,preparing,totalTime,totalCalories}) => 
               <td><button onClick={()=>hendlePreparing(add,add.preparing_time,add.calories)} className=" btn border-none bg-[#0BE58A] rounded-[30px]">Preparing</button></td>
             </tr>
           )}
-          </table>  
+          </table> 
           <AddCurrently preparing ={preparing} totalTime={totalTime} totalCalories={totalCalories}></AddCurrently>
-           
-        </div>
+         </div>
     );
 };
 
