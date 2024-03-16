@@ -7,15 +7,18 @@ const AddCard = ({adding,hendlePreparing,preparing,totalTime,totalCalories}) => 
             <h2 className="text-2xl font-bold text-center my-5 border-b-[1px] border-[#2828281A] pb-4 w-[80%] mx-auto">Want to cook: {adding.length}</h2>
   
             <table className="w-[100%]">
-            <tr className="text-center"> 
-              <td></td>
-              <td>Name</td>
-              <td>Time</td>
-              <td>Calories</td> 
-              <td></td>
+            <thead>
+            <tr className="text-center text-[#878787]"> 
+              <th></th>
+              <th>Name</th>
+              <th>Time</th>
+              <th>Calories</th> 
+              <th></th>
             </tr> 
+            </thead>
+          <tbody>
           {adding.map((add,index) =>           
-              <tr key={index} className="bg-[#28282808] text-center"> 
+              <tr key={index} className="bg-[#28282808] text-center text-[#282828B3]"> 
              <td className="w-5"><div className="px-3">{index + 1}</div></td>
               <td>{add.name}</td>
               <td>{add.preparing_time} min</td>
@@ -23,6 +26,7 @@ const AddCard = ({adding,hendlePreparing,preparing,totalTime,totalCalories}) => 
               <td><button onClick={()=>hendlePreparing(add,add.preparing_time,add.calories)} className=" btn border-none bg-[#0BE58A] rounded-[30px]">Preparing</button></td>
             </tr>
           )}
+          </tbody>
           </table> 
           <AddCurrently preparing ={preparing} totalTime={totalTime} totalCalories={totalCalories}></AddCurrently>
          </div>
