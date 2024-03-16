@@ -1,89 +1,86 @@
 [
-    {
-      "image": "https://i.ibb.co/LtCykfT/pexels-engin-akyurt-1487511.jpg",
-      "id": "1",
-      "name": "Tomato Pasta",
-      "description": "Classic pasta dish with tomato sauce and basil.",
-      "ingredients": [
-        "300 g pasta",
-        "1/2 cup tomato sauce",
-        "2 tbsp olive oil"
-      ],
-      "preparing_time": "20 min",
-      "calories": "300 calories"
-    },
-    {
-      "image": "https://i.ibb.co/hRvzswm/pexels-narda-yescas-1566837.jpg",
-      "id": "2",
-      "name": "Pepperoni Pizza",
-      "description": "Traditional pizza topped with cheese and pepperoni.",
-      "ingredients": [
-        "1 pizza dough",
-        "1/2 cup tomato sauce",
-        "200 g mozzarella cheese, shredded",
-        "100 g pepperoni slices"
-      ],
-      "preparing_time": "25 min",
-      "calories": "350 calories"
-    },
-    {
-      "image": "https://i.ibb.co/Pj3V3WH/pexels-jonathan-borba-2983101.jpg",
-      "id": "3",
-      "name": "Chicken Burger",
-      "description": "Juicy chicken burger with lettuce and mayo.",
-      "ingredients": [
-        "2 chicken patties",
-        "2 burger buns",
-        "Lettuce leaves",
-        "Mayonnaise",
-        "Sliced tomatoes"
-      ],
-      "preparing_time": "30 min",
-      "calories": "400 calories"
-    },
-    {
-      "image": "https://i.ibb.co/YprWQnD/pexels-valeria-boltneva-1639557.jpg",
-      "id": "4",
-      "name": "Beef Burger",
-      "description": "Succulent beef burger with cheese and pickles.",
-      "ingredients": [
-        "2 beef patties",
-        "2 burger buns",
-        "2 slices of cheese",
-        "Pickles",
-        "Sliced onions"
-      ],
-      "preparing_time": "35 min",
-      "calories": "450 calories"
-    },
-    {
-      "image": "https://i.ibb.co/sgB1rsd/pexels-shameel-mukkath-14731729.jpg",
-      "id": "5",
-      "name": "Chicken Biryani",
-      "description": "Flavorful rice dish with tender chicken and aromatic spices.",
-      "ingredients": [
-        "500 g basmati rice",
-        "500 g chicken, cubed",
-        "2 onions, sliced",
-        "Handful of cilantro and mint leaves",
-        "1/4 cup yogurt"
-      ],
-      "preparing_time": "60 min",
-      "calories": "500 calories"
-    },
-    {
-      "image": "https://i.ibb.co/fN4HtNJ/closeup-shot-pasta-with-vegetables-ingredients-white-table.jpg",
-      "id": "6",
-      "name": "Veg Chowmein",
-      "description": "Stir-fried noodles with assorted vegetables.",
-      "ingredients": [
-        "300 g noodles",
-        "Assorted vegetables (e.g., bell peppers, carrots, cabbage)",
-        "2 tbsp soy sauce",
-        "1 tbsp vegetable oil"
-      ],
-      "preparing_time": "30 min",
-      "calories": "350 calories"
-    }
-  ]
-  
+  {
+    "image": "https://i.ibb.co/LtCykfT/pexels-engin-akyurt-1487511.jpg",
+    "id": "1",
+    "name": "Tomato Pasta",
+    "description": "Classic pasta dish with tomato sauce and basil.",
+    "ingredients": [
+      "300 g pasta",
+      "1/2 cup tomato sauce",
+      "Handful of fresh basil leaves",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": "20 min",
+    "calories": "300 calories"
+  },
+  {
+    "image": "https://i.ibb.co/hRvzswm/pexels-narda-yescas-1566837.jpg",
+    "id": "2",
+    "name": "Pepperoni Pizza",
+    "description": "Traditional pizza topped with cheese and pepperoni.",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup tomato sauce",
+      "200 g mozzarella cheese, shredded",
+      "100 g pepperoni slices"
+    ],
+    "preparing_time": "25 min",
+    "calories": "350 calories"
+  },
+  {
+    "image": "https://i.ibb.co/Pj3V3WH/pexels-jonathan-borba-2983101.jpg",
+    "id": "3",
+    "name": "Chicken Burger",
+    "description": "Juicy chicken burger with lettuce and mayo.",
+    "ingredients": [
+      "2 chicken patties",
+      "2 burger buns",
+      "Lettuce leaves",
+      "Mayonnaise"
+    ],
+    "preparing_time": "30 min",
+    "calories": "400 calories"
+  },
+  {
+    "image": "https://i.ibb.co/YprWQnD/pexels-valeria-boltneva-1639557.jpg",
+    "id": "4",
+    "name": "Beef Burger",
+    "description": "Succulent beef burger with cheese and pickles.",
+    "ingredients": [
+      "2 beef patties",
+      "2 burger buns",
+      "2 slices of cheese",
+      "Pickles"
+    ],
+    "preparing_time": "35 min",
+    "calories": "450 calories"
+  },
+  {
+    "image": "https://i.ibb.co/sgB1rsd/pexels-shameel-mukkath-14731729.jpg",
+    "id": "5",
+    "name": "Chicken Biryani",
+    "description": "Flavorful rice dish with tender chicken and aromatic spices.",
+    "ingredients": [
+      "500 g basmati rice",
+      "500 g chicken, cubed",
+      "2 onions, sliced",
+      "Handful of cilantro and mint leaves"
+    ],
+    "preparing_time": "60 min",
+    "calories": "500 calories"
+  },
+  {
+    "image": "https://i.ibb.co/fN4HtNJ/closeup-shot-pasta-with-vegetables-ingredients-white-table.jpg",
+    "id": "6",
+    "name": "Veg Chowmein",
+    "description": "Stir-fried noodles with assorted vegetables.",
+    "ingredients": [
+      "300 g noodles",
+      "Assorted vegetables (e.g., bell peppers, carrots, cabbage)",
+      "2 tbsp soy sauce",
+      "1 tbsp vegetable oil"
+    ],
+    "preparing_time": "30 min",
+    "calories": "350 calories"
+  }
+]

@@ -17,9 +17,17 @@ function App() {
 
 
    let [adding,setAdding]  = useState([])
-   let hendleWantToCook = (add) => {
-       let addingAll = [...adding,add]
-       setAdding(addingAll)
+   let hendleWantToCook = (add,id) => {
+       
+       let isExecute = adding.find(adding => adding.id === id)
+       if(!isExecute){
+        let addingAll = [...adding,add]
+        setAdding(addingAll)
+       }
+       else{
+        alert ('alredy Executed')
+       }
+       
    }
 
   return (

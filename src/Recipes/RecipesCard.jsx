@@ -3,7 +3,7 @@ import { FaRegClock } from "react-icons/fa";
 import { SlFire } from "react-icons/sl";
 
 const RecipesCard = ({recipe,hendleWantToCook}) => {
-     let {image,name,description,ingredients,preparing_time,calories} = recipe
+     let {image,name,id,description,ingredients,preparing_time,calories} = recipe
     return (
             <div className="">
             <div className="card bg-base-100 shadow-xl h-[700px]">
@@ -29,7 +29,7 @@ const RecipesCard = ({recipe,hendleWantToCook}) => {
            </div>
 
            <div className="card-actions">
-             <button onClick={()=>hendleWantToCook(recipe)} className="btn btn-primary">Want to Cook</button>
+             <button onClick={()=>hendleWantToCook(recipe,id)} className="btn border-none bg-[#0BE58A] rounded-[30px]">Want to Cook</button>
            </div>
          </div>
        </div>
