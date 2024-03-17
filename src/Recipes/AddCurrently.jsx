@@ -1,6 +1,5 @@
 
 import PropTypes from 'prop-types'; 
-import './AddCurrently.css'
 const AddCurrently = ({preparing,totalTime,totalCalories}) => {
 
     
